@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
 
 body {
     padding: 0;
@@ -391,8 +391,7 @@ section #row {
 /*START OF GROCERY*/
 .container-grocery {
     width: 100%;
-    height: 800px;
-    border: 1px solid lightgray;
+    
     padding: 0%;
     margin: 0%;
 
@@ -431,33 +430,32 @@ section #row {
 }
 
 .column-list {
-    border: 1px solid lightgray;
+    border-right: 3px solid lightgray;
     width: 30%;
-    height: 600px;
+    height: 720px;
     line-height: 45px;
 
+}
+.column-list ul {
+    padding-left: 3%;
 }
 
 .column-list ul li {
     list-style-type: none;
     font-size: 19px;
-
 }
-
-.column-list ul {
-    padding-left: 3%;
-}
-
 .options {
 
     width: 100%;
     height: 800px;
+    
 }
 
 .option-row1 {
     height: 80px;
     padding-top: 20px;
     padding-left: 9px;
+    border: 1px solid black;
 }
 
 .option-row1 span {
@@ -500,4 +498,83 @@ section #row {
 
 .container-grocery .box:hover {
     box-shadow: 6px 6px 5px lightgray;
+}
+/*STAR OF SELECTED ITEM FILE*/
+.option-row {
+    padding-top: 20px;
+    padding-left: 9px;
+    height: 25px;
+}
+.row-sel-item{
+    
+    height: 700px;
+    display: flex;
+}
+.item-img{
+        
+        height: 600px;
+        width: 50%;
+}
+.item-img img{
+    width: 525px;
+    height: 540px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.item-instructions{
+        
+        height: 600px;
+        width: 50%;
+}
+.item-instructions h1{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.item-instructions h2{
+    color: #CC4141;
+    margin-left: 30px;
+    font-size:30px ;
+}
+.item-instructions p{
+    margin-left: 30px;
+    font-size:22px ;
+}
+.icon {
+    display: inline-block;
+    padding: 0;
+    width: 115px;
+    border: 2px solid #d3581f;
+    border-radius: 30px;
+    background-color: #f0aa55;
+}
+.icon p {
+    margin: 1%;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.item-instructions button{
+    width: 110px;
+    padding: 7px;
+    background-color: white;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#btn{
+    width: 255px;
+    padding: 10px;
+    background-color: #C62424;
+    border: none;
+    color: white;
+    border-radius: 13px;
+    font-size: 20px;
+}
+#btn:hover{
+    background-color: white;
+    color: #C62424;
+    cursor: pointer;
 }
