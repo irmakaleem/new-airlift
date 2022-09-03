@@ -1,0 +1,21 @@
+{
+    "itemsObject": [
+        {
+            "item-01": {
+                "name": "Nestle Everyday Milk Powder 850gm",
+                "price": 100,
+                "image": "/img/everyday.png"
+            },
+            "item-02": {
+                "name": "Nestle Everyday Milk Powder 850gm",
+                "price": 100,
+                "image": "/img/everyday.png"
+            },
+            "item-0": {
+                "name": "Nestle Everyday Milk Powder 850gm",
+                "price": 100,
+                "image": "/img/everyday.png"
+            }
+        }
+    ]
+}
